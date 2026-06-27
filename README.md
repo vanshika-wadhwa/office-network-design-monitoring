@@ -53,14 +53,56 @@ office-network-design-monitoring/
 - TCP/IP Protocol
 
 ## 📸 Screenshots
+Topology:
 ![Network Topology](screenshot/topology.png)
-![Ping Test](screenshots/pingPc.png)
-![Nat Ping](screenshots.png)
-![Chat App](screenshot/chat_app.png)
+
+Pc Ping:
+![Ping Test](screenshot/pingPc.png)
+
+Nat Ping:
+![Nat Ping](screenshot/natPing.png)
+
+Access List:
 ![Access List](screenshot/access-list.png)
+
+Vlan:
 ![Vlan](screenshot/vlan.png)
+
+Vlan Pc Ping:
 ![Vlan Pc Ping](screenshot/vlanPing.png)
+
+Chat App:
+![Chat App](screenshot/chat_app.png)
+
+Network Scanner:
 ![Network Scanner](screenshot/networkScanner.png)
+
+Ping Tools:
 ![Ping Tools](screenshot/pingTools.png)
+
+Port Scanner:
 ![Port Scanner](screenshot/portScanner.png)
+
+Subnet Calculator:
 ![Subnet Calculator](screenshot/subnetCalculator.png)
+
+## 🚀 How to Run
+
+### Python Scripts:
+```bash
+# Ping Tool
+python ping_tool.py
+
+# Port Scanner
+python port_scanner.py
+
+# Subnet Calculator
+python subnet_calculator.py
+
+# Network Scanner
+python network_scanner.py
+
+# Chat App
+python server.py  # Terminal 1
+python client.py  # Terminal 2
+```
