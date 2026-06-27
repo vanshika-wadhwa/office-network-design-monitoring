@@ -28,6 +28,7 @@ network monitoring tools.
 - Socket Programming
 
 ## 📁 Project Structure
+```
 office-network-design-monitoring/
 ├── packet-tracer/
 │   └── office_network_FINAL.pkt
@@ -40,7 +41,7 @@ office-network-design-monitoring/
 │   └── network_scanner.py
 ├── screenshots/
 └── README.md
-
+```
 ## 💡 Concepts Covered
 - IP Addressing & Subnetting
 - VLANs & Trunking
@@ -50,3 +51,16 @@ office-network-design-monitoring/
 - NAT/PAT
 - Socket Programming
 - TCP/IP Protocol
+
+## 📸 Screenshots
+![Network Topology](screenshot/topology.png)
+![Ping Test](screenshots/pingPc.png)
+![Nat Ping](screenshots.png)
+![Chat App](screenshot/chat_app.png)
+![Access List](screenshot/access-list.png)
+![Vlan](screenshot/vlan.png)
+![Vlan Pc Ping](screenshot/vlanPing.png)
+![Network Scanner](screenshot/networkScanner.png)
+![Ping Tools](screenshot/pingTools.png)
+![Port Scanner](screenshot/portScanner.png)
+![Subnet Calculator](screenshot/subnetCalculator.png)
